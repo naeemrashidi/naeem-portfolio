@@ -1,0 +1,46 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace">
+  <rect width="1000" height="600" fill="#0a0a0a"/>
+  <g transform="translate(100,-13)">
+    <!-- Excel Upload -->
+    <rect x="15" y="185" width="140" height="80" rx="10" fill="#111827" stroke="#3b82f6" stroke-width="2"/>
+    <text x="85" y="215" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Excel</text>
+    <text x="85" y="240" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Upload</text>
+
+    <line x1="155" y1="225" x2="213" y2="225" stroke="#3b82f6" stroke-width="3"/>
+    <polygon points="213,225 201,218 201,232" fill="#3b82f6"/>
+
+    <!-- Contact Parser -->
+    <rect x="215" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+    <text x="290" y="215" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Contact</text>
+    <text x="290" y="240" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Parser</text>
+
+    <line x1="365" y1="225" x2="423" y2="225" stroke="#22d3ee" stroke-width="3"/>
+    <polygon points="423,225 411,218 411,232" fill="#22d3ee"/>
+
+    <!-- Concurrent Sender -->
+    <rect x="425" y="185" width="160" height="80" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="505" y="215" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Concurrent</text>
+    <text x="505" y="240" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Sender</text>
+
+    <line x1="585" y1="225" x2="643" y2="225" stroke="#a78bfa" stroke-width="3"/>
+    <polygon points="643,225 631,218 631,232" fill="#a78bfa"/>
+
+    <!-- Twilio -->
+    <rect x="645" y="185" width="140" height="80" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="715" y="222" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">Twilio</text>
+    <text x="715" y="247" text-anchor="middle" fill="#60a5fa" font-size="13">SMS / WhatsApp</text>
+
+    <!-- Webhook back to log -->
+    <line x1="715" y1="265" x2="715" y2="325" stroke="#6b7280" stroke-width="3"/>
+    <line x1="715" y1="325" x2="290" y2="325" stroke="#6b7280" stroke-width="3"/>
+    <line x1="290" y1="325" x2="290" y2="343" stroke="#6b7280" stroke-width="3"/>
+    <polygon points="290,343 283,331 297,331" fill="#6b7280"/>
+    <text x="500" y="315" text-anchor="middle" fill="#6b7280" font-size="13">delivery status webhook</text>
+
+    <!-- Campaign Log -->
+    <rect x="215" y="345" width="150" height="65" rx="10" fill="#111827" stroke="#6b7280" stroke-width="2"/>
+    <text x="290" y="383" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Campaign Log</text>
+
+    <text x="400" y="430" text-anchor="middle" fill="#6b7280" font-size="15">Bounded-concurrency sends, delivery and read status tracked in real time</text>
+  </g>
+</svg>

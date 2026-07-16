@@ -1,0 +1,45 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace">
+  <rect width="1000" height="600" fill="#0a0a0a"/>
+  <g transform="translate(130,-8)">
+    <!-- Candidate Reply -->
+    <rect x="20" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#3b82f6" stroke-width="2"/>
+    <text x="95" y="222" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">Candidate</text>
+    <text x="95" y="247" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">Reply</text>
+
+    <line x1="170" y1="225" x2="233" y2="225" stroke="#3b82f6" stroke-width="3"/>
+    <polygon points="233,225 221,218 221,232" fill="#3b82f6"/>
+
+    <!-- FastAPI -->
+    <rect x="235" y="185" width="140" height="80" rx="10" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+    <text x="305" y="222" text-anchor="middle" fill="#e5e7eb" font-size="19" font-weight="600">FastAPI</text>
+    <text x="305" y="247" text-anchor="middle" fill="#60a5fa" font-size="14">Python</text>
+
+    <line x1="375" y1="225" x2="438" y2="225" stroke="#22d3ee" stroke-width="3"/>
+    <polygon points="438,225 426,218 426,232" fill="#22d3ee"/>
+
+    <!-- LLM Classifier -->
+    <rect x="440" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+    <text x="515" y="215" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">LLM</text>
+    <text x="515" y="240" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">Classifier</text>
+
+    <!-- branch to two states -->
+    <line x1="515" y1="265" x2="515" y2="305" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="515" y1="305" x2="655" y2="305" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="515" y1="305" x2="375" y2="305" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="655" y1="305" x2="655" y2="343" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="375" y1="305" x2="375" y2="343" stroke="#a78bfa" stroke-width="3"/>
+    <polygon points="655,343 648,331 662,331" fill="#a78bfa"/>
+    <polygon points="375,343 368,331 382,331" fill="#a78bfa"/>
+
+    <!-- Interview Scheduled -->
+    <rect x="590" y="345" width="130" height="65" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="655" y="373" text-anchor="middle" fill="#e5e7eb" font-size="15" font-weight="600">Interview</text>
+    <text x="655" y="393" text-anchor="middle" fill="#e5e7eb" font-size="15" font-weight="600">Scheduled</text>
+
+    <!-- Replied -->
+    <rect x="310" y="345" width="130" height="65" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="375" y="383" text-anchor="middle" fill="#e5e7eb" font-size="17" font-weight="600">Replied</text>
+
+    <text x="400" y="430" text-anchor="middle" fill="#6b7280" font-size="15">Reply text scored for interest, state machine advances or holds</text>
+  </g>
+</svg>

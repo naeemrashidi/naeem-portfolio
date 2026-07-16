@@ -1,0 +1,48 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace">
+  <rect width="1000" height="600" fill="#0a0a0a"/>
+  <g transform="translate(105,10)">
+    <!-- WhatsApp -->
+    <rect x="15" y="185" width="130" height="80" rx="10" fill="#111827" stroke="#3b82f6" stroke-width="2"/>
+    <text x="80" y="222" text-anchor="middle" fill="#e5e7eb" font-size="17" font-weight="600">WhatsApp</text>
+    <text x="80" y="247" text-anchor="middle" fill="#60a5fa" font-size="14">webhook</text>
+
+    <line x1="145" y1="225" x2="203" y2="225" stroke="#3b82f6" stroke-width="3"/>
+    <polygon points="203,225 191,218 191,232" fill="#3b82f6"/>
+
+    <!-- Orchestrator -->
+    <rect x="205" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+    <text x="280" y="222" text-anchor="middle" fill="#e5e7eb" font-size="17" font-weight="600">Orchestrator</text>
+    <text x="280" y="247" text-anchor="middle" fill="#60a5fa" font-size="14">workflow</text>
+
+    <line x1="355" y1="225" x2="413" y2="225" stroke="#22d3ee" stroke-width="3"/>
+    <polygon points="413,225 401,218 401,232" fill="#22d3ee"/>
+
+    <!-- Vector Search -->
+    <rect x="415" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="490" y="215" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">pgvector</text>
+    <text x="490" y="240" text-anchor="middle" fill="#e5e7eb" font-size="16" font-weight="600">Search</text>
+
+    <line x1="565" y1="225" x2="623" y2="225" stroke="#a78bfa" stroke-width="3"/>
+    <polygon points="623,225 611,218 611,232" fill="#a78bfa"/>
+
+    <!-- LLM -->
+    <rect x="625" y="185" width="150" height="80" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+    <text x="700" y="222" text-anchor="middle" fill="#e5e7eb" font-size="18" font-weight="600">LLM</text>
+    <text x="700" y="247" text-anchor="middle" fill="#60a5fa" font-size="14">grounded reply</text>
+
+    <!-- return path -->
+    <line x1="700" y1="185" x2="700" y2="150" stroke="#6b7280" stroke-width="2"/>
+    <line x1="700" y1="150" x2="280" y2="150" stroke="#6b7280" stroke-width="2"/>
+    <line x1="280" y1="150" x2="280" y2="183" stroke="#6b7280" stroke-width="2"/>
+    <polygon points="280,183 273,171 287,171" fill="#6b7280"/>
+    <text x="490" y="140" text-anchor="middle" fill="#6b7280" font-size="13">answer + sources</text>
+
+    <!-- Log -->
+    <line x1="280" y1="265" x2="280" y2="343" stroke="#6b7280" stroke-width="3"/>
+    <polygon points="280,343 273,331 287,331" fill="#6b7280"/>
+    <rect x="205" y="345" width="150" height="65" rx="10" fill="#111827" stroke="#6b7280" stroke-width="2"/>
+    <text x="280" y="383" text-anchor="middle" fill="#e5e7eb" font-size="17" font-weight="600">Query Log</text>
+
+    <text x="400" y="430" text-anchor="middle" fill="#6b7280" font-size="15">Question embedded, matched against source docs, answered with enforced citations</text>
+  </g>
+</svg>
